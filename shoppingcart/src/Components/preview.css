@@ -1,0 +1,37 @@
+.preview-container{
+    width: 100%;
+    display: flex;
+    padding-top: 4rem;
+}
+
+.preview-img-container,.preview-listing {
+  width: 50%;
+}
+
+.preview-img-container img{
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.preview-listing h2{
+    text-align: center;
+}
+
+.listing-description{
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.preview-listing button{
+    display: block;
+    margin: auto;
+    margin-top:3rem;
+    border: none;
+    padding: 8px 30px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    color: white;
+    background: #f9ca24;
+}
